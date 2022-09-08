@@ -1,0 +1,31 @@
+.inputs{
+    display: flex;
+}
+.inputs select{
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 38%;
+}
+.inputs input{
+    width: 62%;
+}
+.flex{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+}
+.flex .btn{
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px !important;
+    padding: 10px 5px;
+}
+.flex .btn:hover{
+    background:radial-gradient(circle, rgba(251,110,63,1) 94%, rgba(8,0,2,1) 100%)
+}
+.activeBtn{
+    background:radial-gradient(circle, rgba(251,110,63,1) 94%, rgba(8,0,2,1) 100%) 
+}
