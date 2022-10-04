@@ -15,8 +15,6 @@ function Add(props) {
   }
 
 
-
-
     return (
         <>
             <form id="form" onSubmit={formSubmitted}>

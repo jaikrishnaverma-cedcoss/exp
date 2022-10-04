@@ -12,7 +12,7 @@ function App() {
   let [id, setId] = useState(0)
   let [editIndex,seteditIndex]=useState(-1)
   let [htotal,setHtotal]=useState(0)
-
+  
   const editMasterPicker=(index)=>{
     let ind = -1
     database.map((x, i) => {
